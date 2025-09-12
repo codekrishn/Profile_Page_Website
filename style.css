@@ -52,7 +52,8 @@ body {
 .avatar img {
     width: 80px;
     height: 100px;
-    border-radius: 5px;
+    margin-top: -37px;
+    border-radius: 12px;
     border: 3px solid #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -72,6 +73,7 @@ body {
 
 .info h2 {
     margin: 0;
+    margin-top: -30px;
 }
 
 .info p {
