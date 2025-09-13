@@ -184,12 +184,29 @@ body {
         flex-direction: column;
         text-align: center;
     }
+    .avatar img {
+        margin-left: -237px;
+    }
+    .change-btn {
+        margin-left: -117px;
+        transform: translateX(-50%);
+    }
     .avatar {
-        margin: 0 auto 10px;
+        /* margin: 0 auto 10px; */
+    }
+    .info h2 {
+        margin-left: 30px;
+        margin-top: -95px;
+    }
+    .info p {
+        margin-right: -91px;
+    }
+    .location {
+        margin-right: 60px;
     }
     .share {
         position: static;
-        margin: 10px auto;
+        /* margin: 10px auto; */
         display: block;
     }
     .info-row {
