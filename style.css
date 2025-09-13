@@ -58,6 +58,29 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.info button {
+    position: absolute;
+    font-size: 12px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -86px;
+    margin-left: 419px;
+    border: 5px solid #fff;
+}
+
+.info img {
+    height: 23px;
+    background-color: #0066ff;
+    padding: 9px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.info img:hover{
+    background-color: #008000;
+}
+
 .change-btn {
     position: absolute;
     bottom: 0;
