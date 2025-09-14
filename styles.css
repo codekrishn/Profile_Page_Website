@@ -311,6 +311,143 @@ body {
     }
 }
 
+@media (min-width: 601px) and (max-width: 800px) {
+    .profile-details {
+        padding: 0;
+        margin-top: 23px;
+        margin-left: -450px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .avatar img {
+        width: auto;
+        height: 150px;
+        margin-right: -50px;
+    }
+
+    .change-btn {
+        font-size: 14px;
+        margin-bottom: -9px;
+        border-radius: 14px;
+        color: #fff;
+        border: 2px solid #fff;
+        background-color: #0066ff;
+        margin-left: 25px;
+        transform: translateX(-50%);
+    }
+
+    .change-btn:hover {
+        color: #0066ff;
+        border: 3px solid #0066ff;
+        background-color: #fff;
+    }
+
+    .info h2 {
+        font-size: 30px;
+        margin-right: -750px;
+        margin-top: -135px;
+    }
+
+    .info p {
+        font-size: 19px;
+        margin-right: -459px;
+    }
+
+    .location {
+        font-size: 19px;
+        margin-right: 230px;
+        margin-left: 568px;
+    }
+
+    .share img {
+        margin: 0;
+        position: relative;
+        margin-top: -104px;
+        margin-right: -810px;
+        display: block;
+    }
+
+    .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info-row .value {
+        text-align: left;
+        margin: 5px 0 10px 0;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1920px) {
+    .profile-details {
+        padding: 0;
+        margin-top: 23px;
+        margin-left: -450px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .avatar img {
+        width: auto;
+        height: 190px;
+        margin-right: 0px;
+    }
+
+    .change-btn {
+        font-size: 19px;
+        margin-bottom: -9px;
+        border-radius: 14px;
+        color: #fff;
+        border: 2px solid #fff;
+        background-color: #0066ff;
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+
+    .change-btn:hover {
+        color: #0066ff;
+        border: 3px solid #0066ff;
+        background-color: #fff;
+    }
+
+    .info h2 {
+        font-size: 32px;
+        margin-right: -750px;
+        margin-top: -154px;
+    }
+
+    .info p {
+        font-size: 23px;
+        margin-right: -500px;
+    }
+
+    .location {
+        font-size: 19px;
+        margin-right: 260px;
+        margin-left: 581px;
+    }
+
+    .share img {
+        margin: 0;
+        height: 37px;
+        position: relative;
+        margin-top: -147px;
+        margin-right: -810px;
+        display: block;
+    }
+
+    .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info-row .value {
+        text-align: left;
+        margin: 5px 0 10px 0;
+    }
+}
+
 /*
 @media screen and (max-width: 390px) {
     .profile-details {
