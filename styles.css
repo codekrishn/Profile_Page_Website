@@ -30,10 +30,17 @@ body {
     right: 15px;
     top: 15px;
     padding: 5px 10px;
-    border: none;
-    background: #fff;
-    border-radius: 5px;
+    color: #fff;
+    border: 3px solid #ffffff;
+    background: #0066ff;
+    border-radius: 10px;
     cursor: pointer;
+}
+
+.upload-btn:hover {
+    color: #0066ff;
+    border: 3.5px solid #0066ff;
+    background: #ffffff;
 }
 
 /* Profile Details */
@@ -67,11 +74,18 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-size: 12px;
-    border: none;
-    background: #fff;
-    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: #0066ff;
+    border-radius: 12px;
     padding: 2px 5px;
     cursor: pointer;
+}
+
+.change-btn:hover {
+    color: #0066ff;
+    border: 2px solid #0066ff;
+    background-color: #fff;
 }
 
 .info {
@@ -193,18 +207,9 @@ body {
 
     .change-btn {
         margin-left: 154px;
-        border-radius: 12px;
         cursor: pointer;
-        color: #fff;
-        border: 1px solid #fff;
-        background-color: #0066ff;
+        margin-bottom: -3px;
         transform: translateX(-50%);
-    }
-
-    .change-btn:hover {
-        color: #0066ff;
-        border: 2px solid #0066ff;
-        background-color: #fff;
     }
 
     .info h2 {
@@ -261,18 +266,8 @@ body {
     .change-btn {
         font-size: 14px;
         margin-bottom: -9px;
-        border-radius: 14px;
-        color: #fff;
-        border: 2px solid #fff;
-        background-color: #0066ff;
         margin-left: 75px;
         transform: translateX(-50%);
-    }
-
-    .change-btn:hover {
-        color: #0066ff;
-        border: 3px solid #0066ff;
-        background-color: #fff;
     }
 
     .info h2 {
@@ -329,18 +324,8 @@ body {
     .change-btn {
         font-size: 14px;
         margin-bottom: -9px;
-        border-radius: 14px;
-        color: #fff;
-        border: 2px solid #fff;
-        background-color: #0066ff;
         margin-left: 25px;
         transform: translateX(-50%);
-    }
-
-    .change-btn:hover {
-        color: #0066ff;
-        border: 3px solid #0066ff;
-        background-color: #fff;
     }
 
     .info h2 {
@@ -397,18 +382,8 @@ body {
     .change-btn {
         font-size: 19px;
         margin-bottom: -9px;
-        border-radius: 14px;
-        color: #fff;
-        border: 2px solid #fff;
-        background-color: #0066ff;
         margin-left: 0px;
         transform: translateX(-50%);
-    }
-
-    .change-btn:hover {
-        color: #0066ff;
-        border: 3px solid #0066ff;
-        background-color: #fff;
     }
 
     .info h2 {
@@ -434,237 +409,6 @@ body {
         position: relative;
         margin-top: -147px;
         margin-right: -810px;
-        display: block;
-    }
-
-    .info-row {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .info-row .value {
-        text-align: left;
-        margin: 5px 0 10px 0;
-    }
-}
-
-/*
-@media screen and (max-width: 390px) {
-    .profile-details {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .avatar img {
-        margin-right: -20px;
-    }
-
-    .change-btn {
-        margin-right: 150px;
-        transform: translateX(-50%);
-    }
-
-    .info h2 {
-        margin-left: 14px;
-        margin-top: -95px;
-    }
-
-    .info p {
-        margin-right: -77px;
-    }
-
-    .location {
-        margin-right: 76px;
-    }
-
-    .share img {
-        position: relative;
-        margin-bottom: -30px;
-        margin-right: -250px;
-        display: block;
-    }
-
-    .info-row {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .info-row .value {
-        text-align: left;
-        margin: 5px 0 10px 0;
-    }
-}
-
-@media screen and (max-width: 412px) {
-    .profile-details {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .avatar img {
-        margin-left: -237px;
-    }
-
-    .change-btn {
-        margin-left: -117px;
-        transform: translateX(-50%);
-    }
-
-    .info h2 {
-        margin-left: 30px;
-        margin-top: -95px;
-    }
-
-    .info p {
-        margin-right: -91px;
-    }
-
-    .location {
-        margin-right: 60px;
-    }
-
-    .share img {
-        position: relative;
-        margin-bottom: -30px;
-        margin-right: -250px;
-        display: block;
-    }
-
-    .info-row {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .info-row .value {
-        text-align: left;
-        margin: 5px 0 10px 0;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .profile-details {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .avatar img {
-        margin-left: -290px;
-    }
-
-    .change-btn {
-        margin-left: -144px;
-        transform: translateX(-50%);
-    }
-
-    .info h2 {
-        margin-left: 10px;
-        margin-top: -95px;
-    }
-
-    .info p {
-        margin-right: -73px;
-    }
-
-    .location {
-        margin-right: 77px;
-    }
-
-    .share img {
-        position: relative;
-        margin-bottom: -30px;
-        margin-right: -250px;
-        display: block;
-    }
-
-    .info-row {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .info-row .value {
-        text-align: left;
-        margin: 5px 0 10px 0;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    .profile-details {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .avatar img {
-        margin-left: -300px;
-    }
-
-    .change-btn {
-        margin-left: -150px;
-        transform: translateX(-50%);
-    }
-
-    .info h2 {
-        margin-left: -10px;
-        margin-top: -95px;
-    }
-
-    .info p {
-        margin-right: -55px;
-    }
-
-    .location {
-        margin-right: 97px;
-    }
-
-    .share img {
-        position: relative;
-        margin-bottom: -30px;
-        margin-right: -250px;
-        display: block;
-    }
-
-    .info-row {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .info-row .value {
-        text-align: left;
-        margin: 5px 0 10px 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .profile-details {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .avatar img {
-        margin-left: -300px;
-    }
-
-    .change-btn {
-        margin-left: -150px;
-        transform: translateX(-50%);
-    }
-
-    .info h2 {
-        margin-left: -10px;
-        margin-top: -95px;
-    }
-
-    .info p {
-        margin-right: -55px;
-    }
-
-    .location {
-        margin-right: 97px;
-    }
-
-    .share img {
-        position: relative;
-        margin-bottom: -30px;
-        margin-right: -250px;
         display: block;
     }
 
