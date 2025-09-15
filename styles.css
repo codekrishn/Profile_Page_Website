@@ -5,7 +5,7 @@ body {
 }
 
 .profile-container {
-    max-width: 700px;
+    max-width: 900px;
     margin: 20px auto;
     background: #fff;
     border-radius: 12px;
@@ -632,34 +632,34 @@ body {
     .avatar img {
         width: auto;
         height: 190px;
-        margin-right: 0px;
+        margin-right: 100px;
     }
 
     .change-btn {
         font-size: 19px;
         margin-bottom: -9px;
-        margin-left: 0px;
+        margin-left: -50px;
         transform: translateX(-50%);
     }
 
     .info h2 {
         font-size: 32px;
         text-align: start;
-        margin-left: 670px;
+        margin-left: 730px;
         margin-top: -154px;
     }
 
     .info p {
         font-size: 23px;
         text-align: start;
-        margin-left: 670px;
+        margin-left: 730px;
     }
 
     .location {
         font-size: 19px;
         text-align: start;
         margin-right: 73px;
-        margin-left: 500px;
+        margin-left: 410px;
     }
 
     .share img {
