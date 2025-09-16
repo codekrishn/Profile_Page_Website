@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     margin: 0;
     font-family: "Segoe UI", sans-serif;
@@ -46,8 +51,8 @@ body {
 /* Profile Details */
 .profile-details {
     display: flex;
-    align-items: center;
-    padding: 20px;
+    /* align-items: center; */
+    padding: 0px;
     border-bottom: 1px solid #eee;
     flex-wrap: wrap;
     text-align: center;
@@ -59,8 +64,6 @@ body {
 }
 
 .avatar img {
-    width: 80px;
-    height: 100px;
     margin-top: -37px;
     border-radius: 12px;
     border: 3px solid #fff;
@@ -72,8 +75,6 @@ body {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
-    font-size: 12px;
     color: #fff;
     border: 1px solid #fff;
     background: #0066ff;
@@ -209,7 +210,6 @@ body {
         margin-top: 23px;
         margin-left: -350px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -285,7 +285,6 @@ body {
         margin-top: 23px;
         margin-left: -370px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -361,7 +360,6 @@ body {
         margin-top: 23px;
         margin-left: -400px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -437,7 +435,6 @@ body {
         margin-top: 23px;
         margin-left: -400px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -513,7 +510,6 @@ body {
         margin-top: 23px;
         margin-left: -430px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -589,7 +585,6 @@ body {
         margin-top: 23px;
         margin-left: -500px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -663,7 +658,6 @@ body {
         margin-top: 23px;
         margin-left: -510px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -737,7 +731,6 @@ body {
         margin-top: 23px;
         margin-left: -530px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -811,7 +804,6 @@ body {
         margin-top: 23px;
         margin-left: -530px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -885,7 +877,6 @@ body {
         margin-top: 23px;
         margin-left: -550px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -959,7 +950,6 @@ body {
         margin-top: 23px;
         margin-left: -500px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -1033,7 +1023,6 @@ body {
         margin-top: 23px;
         margin-left: -530px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -1107,7 +1096,6 @@ body {
         margin-top: 23px;
         margin-left: -550px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -1182,7 +1170,6 @@ body {
         margin-top: 23px;
         margin-left: -560px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
@@ -1248,7 +1235,6 @@ body {
         margin-top: 23px;
         margin-left: -450px;
         flex-direction: column;
-        text-align: center;
     }
 
     .avatar img {
