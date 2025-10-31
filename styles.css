@@ -60,6 +60,8 @@ body {
 
 .avatar img {
     width: 10vw;
+    height: 150px;
+    object-fit: cover;
     margin: -5vh 0 0 5.12vw;
     border-radius: 12px;
     border: 3px solid #fff;
@@ -191,7 +193,8 @@ hr {
 
     hr {
         margin: 30px 30px 0 30px;
-    }}
+    }
+}
 
 @media screen and (max-width: 1080px) {
     .avatar img {
@@ -240,6 +243,7 @@ hr {
 @media screen and (max-width: 601px) {
     .avatar img {
         width: 100px;
+        height: 120px;
     }
 
     .change-btn {
